@@ -105,6 +105,9 @@ body {
 #connect button:active {
   transform: translateY(5px);
 }
+#connect button:hover{
+  background-color: rgb(67, 222, 217);
+}
 
 .skill {
   display: flex;
