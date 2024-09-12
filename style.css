@@ -87,6 +87,10 @@ body {
   margin: 0px;
   padding: 0px;
 }
+#connect a{
+  text-decoration: none;
+  color: inherit;
+}
 
 #connect button {
   margin: 10px;
