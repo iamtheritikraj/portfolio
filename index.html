@@ -16,9 +16,9 @@
         <div class="header">
             <span class="logoName">Portfolio</span>
             <ul class="menu">
-                <li class="menuList"><a href="#skillsPosition">Skills</a></li>
-                <li class="menuList">Experience</li>
-                <li class="menuList">Projects</li>
+                <li class="menuList"><a href="#skill">Skills</a></li>
+                <li class="menuList"><a href="#experience">Experience</a></li>
+                <li class="menuList"><a href="#projects">Projects</a></li>
             </ul>
         </div>
         <div class="main">
@@ -107,7 +107,7 @@
             </div>
 
         </div>
-        <div class="skill">
+        <div class="skill" id="skill">
             <p class="skillText">My Skills</p>
             <div class="skillsLogo">
                 <ul class="skillLogoList" id="skillsPosition">
@@ -483,13 +483,64 @@
                 </ul>
             </div>
         </div>
-        <div class="footer">
+        <div class="experience" id="experience">
+            <p id="experienceText" align="center">Experience</p>
+            <h3>Software Engineer</h3>
+            <p class="company-duration">Unisys | July 2024 - Present</p>
+            <ul class="description-list" id="description1">
+                <li>Developed cloud-based solutions for hybrid cloud environments, integrating VMware and HCI
+                    technologies.</li>
+                <li>Collaborated with cross-functional teams to meet client needs and improve cloud operations.</li>
+                <li>Automated workflows and improved cloud resource management using modern CI/CD pipelines.</li>
+            </ul>
+            <button class="read-more-btn" onclick="toggleDescription(event)">Read More</button>
 
+            <h3>Associate Intern</h3>
+            <p class="company-duration">Unisys | Jan 2024 - July 2024</p>
+            <ul class="description-list" id="description2">
+                <li>Developed cloud-based solutions for hybrid cloud environments, integrating VMware and HCI
+                    technologies.</li>
+                <li>Collaborated with cross-functional teams to meet client needs and improve cloud operations.</li>
+                <li>Automated workflows and improved cloud resource management using modern CI/CD pipelines.</li>
+            </ul>
+            <button class="read-more-btn" onclick="toggleDescription(event)">Read More</button>
         </div>
-    </div>
+        <div class="projects" id="projects">
+            <p align="center" id="projectText">Projects</p>
+            <h3 class="projectTitle">AI Code Review App</h3>
+            <ul class="projectDescription">
+                <li>Implemented GitHub OAuth for user authentication.</li>
+                <li>Automated code reviews using AI models like ChatGPT and Claude.</li>
+                <li>Integrated backend services with MongoDB for data storage.</li>
+                <li>Optimized repository analysis workflows using Java.</li>
+            </ul>
+            <button class="read-more-btn" onclick="toggleDescription(event)">Read More</button>
 
+            <h3 class="projectTitle">E-Ticketing Platform</h3>
+            <ul class="projectDescription">
+                <li>Developed a React-based user interface for seamless ticket booking.</li>
+                <li>Created backend services in Node.js with MongoDB integration.</li>
+                <li>Implemented secure authentication and payment processing.</li>
+                <li>Enhanced user experience with a mobile-first design approach.</li>
+            </ul>
+            <button class="read-more-btn" onclick="toggleDescription(event)">Read More</button>
 
-    <script src="script.js" async defer></script>
+            <h3 class="projectTitle">Notes Application</h3>
+            <ul class="projectDescription">
+                <li>Developed a full-stack notes app using MERN stack.</li>
+                <li>Implemented features for creating, editing, and organizing notes.</li>
+                <li>Enabled cloud synchronization for multi-device access.</li>
+                <li>Optimized for performance with Redux for state management.</li>
+            </ul>
+            <button class="read-more-btn" onclick="toggleDescription(event)">Read More</button>
+        </div>
+        <footer>
+            <p class="footerText" align="center">
+                Thank you for your visit ❤️ : Ritik Raj
+            </p>
+        </footer>
+
+        <script src="script.js" async defer></script>
 </body>
 
 </html>
