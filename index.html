@@ -18,7 +18,7 @@
             <ul class="menu">
                 <li class="menuList"><a href="#skill">Skills</a></li>
                 <li class="menuList"><a href="#experience">Experience</a></li>
-                <li class="menuList"><a href="#projects">Projects</a></li>
+                <li class="menuList"><a href="#project">Projects</a></li>
             </ul>
         </div>
         <div class="main">
@@ -483,57 +483,62 @@
                 </ul>
             </div>
         </div>
-        <div class="experience" id="experience">
-            <p id="experienceText" align="center">Experience</p>
-            <h3>Software Engineer</h3>
-            <p class="company-duration">Unisys | July 2024 - Present</p>
-            <ul class="description-list" id="description1">
-                <li>Developed cloud-based solutions for hybrid cloud environments, integrating VMware and HCI
-                    technologies.</li>
-                <li>Collaborated with cross-functional teams to meet client needs and improve cloud operations.</li>
-                <li>Automated workflows and improved cloud resource management using modern CI/CD pipelines.</li>
-            </ul>
-            <button class="read-more-btn" onclick="toggleDescription(event)">Read More</button>
-
-            <h3>Associate Intern</h3>
-            <p class="company-duration">Unisys | Jan 2024 - July 2024</p>
-            <ul class="description-list" id="description2">
-                <li>Developed cloud-based solutions for hybrid cloud environments, integrating VMware and HCI
-                    technologies.</li>
-                <li>Collaborated with cross-functional teams to meet client needs and improve cloud operations.</li>
-                <li>Automated workflows and improved cloud resource management using modern CI/CD pipelines.</li>
-            </ul>
-            <button class="read-more-btn" onclick="toggleDescription(event)">Read More</button>
-        </div>
-        <div class="projects" id="projects">
-            <p align="center" id="projectText">Projects</p>
-            <h3 class="projectTitle">AI Code Review App</h3>
-            <ul class="projectDescription">
-                <li>Implemented GitHub OAuth for user authentication.</li>
-                <li>Automated code reviews using AI models like ChatGPT and Claude.</li>
-                <li>Integrated backend services with MongoDB for data storage.</li>
-                <li>Optimized repository analysis workflows using Java.</li>
-            </ul>
-            <button class="read-more-btn" onclick="toggleDescription(event)">Read More</button>
-
-            <h3 class="projectTitle">E-Ticketing Platform</h3>
-            <ul class="projectDescription">
-                <li>Developed a React-based user interface for seamless ticket booking.</li>
-                <li>Created backend services in Node.js with MongoDB integration.</li>
-                <li>Implemented secure authentication and payment processing.</li>
-                <li>Enhanced user experience with a mobile-first design approach.</li>
-            </ul>
-            <button class="read-more-btn" onclick="toggleDescription(event)">Read More</button>
-
-            <h3 class="projectTitle">Notes Application</h3>
-            <ul class="projectDescription">
-                <li>Developed a full-stack notes app using MERN stack.</li>
-                <li>Implemented features for creating, editing, and organizing notes.</li>
-                <li>Enabled cloud synchronization for multi-device access.</li>
-                <li>Optimized for performance with Redux for state management.</li>
-            </ul>
-            <button class="read-more-btn" onclick="toggleDescription(event)">Read More</button>
-        </div>
+        <div class="experience-section" id="experience">
+            <p align="center" id="experienceText">Experience</p>
+            <div class="timeline">
+              <div class="experience-item">
+                <div class="year">2024</div>
+                <div class="experience-details">
+                  <h3>Software Engineer</h3>
+                  <p>Unisys | July 2024 - Present</p>
+                  <p>Developed cloud-based solutions for hybrid cloud environments, integrating VMware and HCI technologies.</p>
+                  <p>Collaborated with cross-functional teams to meet client needs and improve cloud operations.</p>
+                </div>
+              </div>
+          
+              <div class="experience-item">
+                <div class="year">2024</div>
+                <div class="experience-details">
+                  <h3>Associate Intern</h3>
+                  <p>Unisys | Jan 2024 - July 2024</p>
+                  <p>Worked on automating workflows and improving cloud resource management using modern CI/CD pipelines.</p>
+                  <p>Participated in daily scrums and contributed to project delivery timelines.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-section" id="project">
+            <p align="center" id="projectText">Project</p>
+            <div class="timeline">
+              <div class="project-item">
+                <div class="project-details">
+                  <h3><a href="https://github.com/iamtheritikraj/AICodeReviewApp" target="_blank">AI Code Review App 🔗</a></h3>
+                  <p>Developed an AI-driven code review system that integrates GitHub OAuth for authentication.</p>
+                  <p>Used Java and Spring Boot for backend, employing AI models like GPT for automated reviews.</p>
+                  <p>Improved review accuracy by 30% and reduced manual effort for code quality analysis.</p>
+                </div>
+              </div>
+          
+              <div class="project-item">
+                <div class="project-details">
+                  <h3><a href="https://github.com/iamtheritikraj/Ticketing-Platform" target="_blank">E-Ticketing Platform 🔗</a></h3>
+                  <p>Built an online ticketing platform with secure user registration and login features.</p>
+                  <p>Integrated payment gateways and enhanced scalability using cloud-based infrastructure.</p>
+                  <p>React.js and Node.js were used to ensure a smooth user experience and robust backend.</p>
+                </div>
+              </div>
+          
+              <div class="project-item">
+                <div class="project-details">
+                  <h3><a href="https://github.com/iamtheritikraj/Notes_App" target="_blank">Notes Application 🔗</a></h3>
+                  <p>Designed and developed a cross-platform notes application using React Native and Firebase.</p>
+                  <p>Implemented real-time syncing, authentication, and local storage features for offline access.</p>
+                  <p>Achieved a 15% increase in user engagement through UI/UX enhancements and notifications.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         <footer>
             <p class="footerText" align="center">
                 Thank you for your visit ❤️ : Ritik Raj
