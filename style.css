@@ -98,6 +98,12 @@ body {
   border-radius: 16px;
   transition: background-color 0.3s, color 0.3s;
 }
+#connect button{
+  display: flex;
+}
+#connect svg{
+  margin: 0px 8px;
+}
 
 #connect button:active {
   transform: translateY(5px);
